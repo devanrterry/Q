@@ -1,11 +1,18 @@
 import React from 'react';
 import './App.css';
-import ExampleComponent from './components/ExampleComponent';
+import MainPage from './components/MainPage/MainPage';
+import Nav from './components/Nav/Nav'
 
 function App() {
   return (
     <div className="App">
-      <ExampleComponent />
+      <div>
+      <Nav
+        user={this.state.user}
+        handleLogout={this.handleLogout}
+      />
+      <MainPage />
+      </div>
     </div>
   );
 }
