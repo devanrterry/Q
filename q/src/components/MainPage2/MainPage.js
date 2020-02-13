@@ -1,5 +1,5 @@
 import React from 'react';
-import './ExampleComponent.css';
+import './MainPage.css';
 
 export default function ExampleComponent(props){
     return (
